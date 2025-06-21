@@ -1,0 +1,198 @@
+body { 
+  font-family: 'Segoe UI', sans-serif;
+  background-color: whitesmoke;
+}
+h1,p{
+  text-align: center;
+}
+
+.hero {
+  background: url(imazhet/smart\ watch.webp) center/cover no-repeat;
+  color: white; 
+  height: 90vh;   
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+}
+
+.hero h1 { font-size: 3rem; }
+  footer {
+  background: #000; 
+  color: #fff; 
+  padding: 2rem 0; 
+  text-align: center;
+}
+
+
+
+.a {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  }
+
+
+  .side-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 200px;
+  }
+
+  .animation {
+  text-align: center;
+  }
+
+  .animation i {
+  font-size: 40px;
+  color: #007bff;
+  transition: transform 0.5s ease;
+  display: inline-block;
+  }
+
+
+  .animation h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  }
+
+  .animation p {
+  font-size: 14px;
+  color: #777;
+  }
+
+  
+  .center-image {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .center-image img {
+  max-width: 100%;
+  }
+
+.features-section {
+  background: url(imazhet/watch-bg.jpg) center/cover no-repeat;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  position: relative;
+}
+
+.features-section .overlay { 
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3rem 1rem;
+  border-radius: 1rem;
+}
+
+.features-section h2 {
+  font-size: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 120px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background: #000; 
+  color: #fff; 
+  padding: 3rem; 
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+    padding: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .a {
+    flex-direction: column;
+    gap: 30px;
+    padding: 1rem;
+  }
+
+  .side-column {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  .animation i {
+    font-size: 30px;
+  }
+
+  .center-image {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .feature {
+    max-width: 100%;
+  }
+
+  .features-section {
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+
+  .features-section h2 {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  footer {
+    padding: 2rem 1rem;
+    font-size: 14px;
+  }
+}
